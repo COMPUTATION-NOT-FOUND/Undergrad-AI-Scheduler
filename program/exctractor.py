@@ -48,7 +48,7 @@ class TableExtractor:
                     for cls in entries:
                         print(f"    - {cls}")
 
-
+# test script 
 if __name__ == "__main__":
     program = "BSCS-4"
     timings = [
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         "4:00 pm to 5:15 pm",
         "5:30 pm to 6:45 pm"
     ]
-    filepath = r"..\Cleaned_Schedule\class_schedule_BSCS-4.csv"
+    filepath = r"D:\OneDrive\Documents\IBA\GitHub\AI-PROJECT\Cleaned_Schedule\class_schedule_BSCS-4.csv"
     exception = ["Comments"]
 
     extractor = TableExtractor(program, timings, filepath, exception)

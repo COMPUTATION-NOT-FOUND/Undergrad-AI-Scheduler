@@ -1,0 +1,4 @@
+Timings	Course Name	Class & Program	Room No.	UMS ClassNo.	Teacher
+	Pakistan History Only Saturday 8:30 to 11:15 am	BSCS-4	MAC-3	98525	Dr. Moiz Khan
+	Computer Architecture and Assembly Language (Lab) Only Friday 8:30 to 11:15 am	BSCS-4	MCL-1	98473	Ms. Asma Tauqir 
+	Pakistan History Only Saturday 8:30 to 11:15 am	BSCS-4	MAC-3	98525	Dr. Moiz Khan

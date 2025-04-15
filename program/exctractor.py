@@ -60,7 +60,6 @@ if __name__ == "__main__":
         "4:00 pm to 5:15 pm",
         "5:30 pm to 6:45 pm"
     ]
-    #update file path as needed
     filepath = r"D:\OneDrive\Documents\IBA\GitHub\AI-PROJECT\Cleaned_Schedule\class_schedule_BSCS-4.csv"
     exception = ["Comments"]
 

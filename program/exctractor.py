@@ -4,7 +4,7 @@ class TableExtractor:
     def __init__(self, program, timings, filepath, exception):
         self.program = program
         self.filepath = filepath
-        self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+        self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
         self.timings = timings
         self.exception = exception  # Columns to ignore
         self.headers = []  # Will be filled from CSV header
@@ -47,8 +47,11 @@ class TableExtractor:
                     print(f"  📍 {day}:")
                     for cls in entries:
                         print(f"    - {cls}")
-
-
+    def get_courses(self, program):
+         self.tables = [[[] for _ in self.days] for _ in self.timings]
+         self.program = program
+         self.extract_table()
+         return self.tables 
 if __name__ == "__main__":
     program = "BSCS-4"
     timings = [
@@ -60,9 +63,11 @@ if __name__ == "__main__":
         "4:00 pm to 5:15 pm",
         "5:30 pm to 6:45 pm"
     ]
-    filepath = r"..\Cleaned_Schedule\class_schedule_BSCS-4.csv"
+    filepath = r"C:\Users\neera\OneDrive\University\Spring 2025\AI\Project\Cleaned_Schedule\class_schedule_BSCS-4.csv"
     exception = ["Comments"]
 
     extractor = TableExtractor(program, timings, filepath, exception)
     extractor.extract_table()
-    extractor.display_table()
+    # # extractor.display_table()
+    # course_list = extractor.get_courses("BSCS-4")
+    # print("Courses:", course_list)

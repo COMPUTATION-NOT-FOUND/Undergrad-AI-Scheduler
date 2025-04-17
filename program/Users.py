@@ -14,7 +14,7 @@ class User:
             # Check for clash (based on the course timing)
             for enrolled_course in self.enrolled_courses:
                 if enrolled_course[0] == course[0]:  # Compare course names
-                if enrolled_course[0] & enrolled_course[6] == course[0] & course [6]:  # Compare times of the courses
+                 if enrolled_course[0] & enrolled_course[6] == course[0] & course [6]:  # Compare times of the courses
                     print(f"Conflict with course {enrolled_course[0]} at {enrolled_course[1]}")
                     return False
             self.enrolled_courses.append(course)

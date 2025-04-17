@@ -1,0 +1,18 @@
+Timings	Course Name	Class & Program	Room No.	UMS ClassNo.	Teacher
+	Calculus - II	BSCS-2	MTS 6	98554	Ms. Samreen Zaman
+	Object Oriented Programming Technique only Saturday 11:30 am to 12:45 pm	BSCS-2	MTC-20	98497	Mr. Behraj Khan
+	Calculus - II	BSCS-2	MTS 6	98552	Ms. Samreen Zaman
+	"Object Oriented Programming Technique (Lab) Only Saturday 11:30 am to 2:15 pm
+"	BSCS-2	MCL-2	98497	Mr. Behraj Khan
+		BSCS-2	MTC-20		Mr. Behraj Khan
+	Calculus-II Only Saturday 3:00 to 6:00 pm	BSCS-2	MTC-27	98553	Mr. Syed Shujaat Hussain 
+	"Topics in Literature (2 crdt hours) (Only Friday 2:30 to 4:10 pm (98675)
+Topics in Literature (2 crdt hours) (Only Saturday 2:30 to 4:10 pm (98676)"	BSCS-2	MTS 6	"98675
+98676"	"Dr. Faisal Nazir
+Ms. Rabia Saadi"
+	Calculus-II Only Saturday 3:00 to 6:00 pm	BSCS-2	MTC-27	98553	Mr. Syed Shujaat Hussain
+	"Topics in Literature (2 crdt hours) (Only Friday 2:30 to 4:10 pm (98675)
+Topics in Literature (2 crdt hours) (Only Saturday 2:30 to 4:10 pm (98676)"	BSCS-2	MTS 6	"98675
+98676"	"Dr. Faisal Nazir
+Ms. Rabia Saadi"
+	Calculus-II Only Saturday 3:00 to 6:00 pm	BSCS-2	MTC-27	98553	Mr. Syed Shujaat Hussain 

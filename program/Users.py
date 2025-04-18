@@ -1,12 +1,14 @@
 from exctractor import get_courses
-
+#password security checks
 class User:
     def __init__(self, Erp_id, program, credits, courses):
         self.Erp_id = Erp_id
         self.program = program
         self.credits = credits
-        self.courses = courses
-        self.enrolled_courses = []
+        self.courses = courses # todo: this should be univeral for all students with same program id
+        #^ ^ is redudancy check
+        self.enrolled_courses = [] # 4 tuple consisting of course name , course time,course day and course id
+        self.login_status= False # if user already logged in 
 
     def enroll(self, course):
         # Check if user is not enrolled in this course and if there's no clash

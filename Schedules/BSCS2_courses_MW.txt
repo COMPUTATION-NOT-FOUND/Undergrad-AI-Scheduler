@@ -1,0 +1,20 @@
+Timings	Course Name	Class & Program	Room No.	UMS ClassNo.	Teacher
+	Physics	BSCS-2	MTC-20A	98356	Mr. Syed Mujahid Ali
+	Calculus - II	BSCS-2	MTC-22	98454	Dr. Maqsood Alam
+	Speech Communication	BSCS-2	MTC-27	98357	Dr. Nadya Qamar Chishty
+	Speech Communication	BSCS-2	MTC-28	98363	Ms. Tazeen Erum
+	Speech Communication 	BSCS-2	MTC-22	98414	Ms. Maria Hassan Siddiqui
+	Speech Communication 	BSCS-2	MTC-28	98407	Ms. Tazeen Erum
+	Speech Communication	BSCS-2	MTC-22	98388	Ms. Tehmina Qureshi
+	Speech Communication	BSCS-2	MTC-24	98686	Ms. Safia Mahmood
+	Physics	BSCS-2	MTC-29	98868	Mr. Waqar Ahmad
+	Topics in History (2 Credit Hours) - (Monday Only from 2:30pm to 4:10pm) 	BSCS-2	EVENT HALL	"98673
+98674"	Dr. Moiz Khan
+	"Topics in History (2 Credit Hours) - (Wednesday Only from 2:30pm to 4:10pm) 
+Arabic-I (Lab Monday 2:30pm to 3:30pm)"	BSCS-2	MAS-1	98715/ 98863	Ms. Parmal Ahmed 
+	Speech Communication	BSCS-2	MTC-24	98555	Ms. Safia Mahmood
+	Topics in History (2 Credit Hours) - (Monday Only from 2:30pm to 4:10pm) 	BSCS-2	EVENT HALL	"98673
+98674"	Dr. Moiz Khan
+	Topics in History (2 Credit Hours) - (Wednesday Only from 2:30pm to 4:10pm) 	BSCS-2	MAS-1	98715	Ms. Parmal Ahmed 
+	Object Oriented Programming Technique	BSCS-2	MTC-18	98444	Mr. Ahmed Akhtar
+	Speech Communication 	BSCS-2	MTC-21	98446	Mr. Farhan Shaukat 

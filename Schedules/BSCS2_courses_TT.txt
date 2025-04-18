@@ -1,0 +1,18 @@
+Timings	Course Name	Class & Program	Room No.	UMS ClassNo.	Teacher
+	Physics	BSCS-2	MTC-20A	98456	Prof. Muhammad Naeem Khan
+	Calculus-II	BSCS-2	MAC-2	98462	Dr. Maqsood Alam
+	Physics	BSCS-2	MCC-12	98459	Prof. Muhammad Naeem Khan
+	Object Oriented Programming Technique	BSCS-2	MTC-28	98502	Ms. Samreen Kazi
+	Object Oriented Programming Technique	BSCS-2	MTC-28	98509	Ms. Samreen Kazi
+"2:30 PM
+to 
+3:45 PM"	Discrete Mathematics (2 Merge Sessions)	BSCS-2	EVENT HALL	"98510
+98511"	Dr. Shoaib Jamall
+	Physics	BSCS-2	MTC-23	98516	Dr. Shabana Nisar
+"4:00 PM
+ to 
+5:15 PM"	Discrete Mathematics (3 Merge Sessions)	BSCS-2	EVENT HALL	98517-98518-98519	Dr. Shoaib Jamall
+	"
+Object Oriented Programming Technique"	BSCS-2	MTC-18	98521	Mr. Ahmed Akhtar 
+	Physics	BSCS-2	MTC-23	98523	Dr. Shabana Nisar
+	Object Oriented Programming Technique (Only Tuesday 4:00 pm to 5:15 pm)	BSCS-2	MTC-27	98497	Mr. Behraj Khan

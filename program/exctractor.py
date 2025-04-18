@@ -4,11 +4,58 @@ class TableExtractor:
     def __init__(self, program, timings, filepath, exception):
         self.program = program
         self.filepath = filepath
-        self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+        self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
         self.timings = timings
         self.exception = exception  # Columns to ignore
         self.headers = []  # Will be filled from CSV header
         self.tables = [[[] for _ in self.days] for _ in self.timings]  # 3D table
+
+    # def extract_table(self):
+    #     try:
+    #         with open(self.filepath, newline='', encoding='utf-8') as csvfile:
+    #             reader = csv.DictReader(csvfile)
+    #             self.headers = [h for h in reader.fieldnames if h not in self.exception]
+
+    #             for row in reader:
+    #                 if row.get("Program", "").strip() != self.program:
+    #                     continue
+
+    #                 time = row.get("Class Timing", "").strip()
+    #                 day = row.get("Day", "").strip()
+
+    #                 if time not in self.timings or day not in self.days:
+    #                     continue
+
+    #                 row_index = self.timings.index(time)
+    #                 col_index = self.days.index(day)
+
+    #                 class_string = ', '.join(f"{key}: {row[key]}" for key in self.headers if key in row)
+    #                 self.tables[row_index][col_index].append(class_string)
+
+    #     except FileNotFoundError:
+    #         print(f"❌ File '{self.filepath}' not found.")
+    #     except Exception as e:
+    #         print(f"❌ Error reading file: {e}")
+
+
+
+
+
+    # def display_table(self):
+    #     print(f"\n📅 Timetable for program: {self.program}")
+    #     for i, time in enumerate(self.timings):
+    #         print(f"\n⏰ Time Slot: {time}")
+    #         for j, day in enumerate(self.days):
+    #             entries = self.tables[i][j]
+    #             if entries:
+    #                 print(f"  📍 {day}:")
+    #                 for cls in entries:
+    #                     print(f"    - {cls}")
+
+
+
+
+
 
     def extract_table(self):
         try:
@@ -29,13 +76,14 @@ class TableExtractor:
                     row_index = self.timings.index(time)
                     col_index = self.days.index(day)
 
-                    class_string = ', '.join(f"{key}: {row[key]}" for key in self.headers if key in row)
-                    self.tables[row_index][col_index].append(class_string)
+                    class_tuple = tuple(row[key] for key in self.headers if key in row)
+                    self.tables[row_index][col_index].append(class_tuple)
 
         except FileNotFoundError:
             print(f"❌ File '{self.filepath}' not found.")
         except Exception as e:
             print(f"❌ Error reading file: {e}")
+
 
     def display_table(self):
         print(f"\n📅 Timetable for program: {self.program}")
@@ -46,9 +94,19 @@ class TableExtractor:
                 if entries:
                     print(f"  📍 {day}:")
                     for cls in entries:
-                        print(f"    - {cls}")
+                        # Show (key: value) using zip
+                        display = ', '.join(f"{k}: {v}" for k, v in zip(self.headers, cls))
+                        print(f"    - {display}")
 
 # test script 
+
+
+
+    def get_courses(self, program):
+         self.tables = [[[] for _ in self.days] for _ in self.timings]
+         self.program = program
+         self.extract_table()
+         return self.tables 
 if __name__ == "__main__":
     program = "BSCS-4"
     timings = [

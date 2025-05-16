@@ -1,0 +1,672 @@
+[
+    {
+        "time": "08:30-09:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAC-4",
+        "id": "98354",
+        "instructor": "Dr. Jaffar Ahmed",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98668",
+        "instructor": "Dr. Moiz Khan",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98355",
+        "instructor": "Dr. Syed Ali Raza",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-26",
+        "id": "98403",
+        "instructor": "Mr. M.Waseem Arain",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98393",
+        "instructor": "Dr. Shahid Hussain",
+        "day": "Monday ",
+        "comments": "2 Combined Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98396",
+        "instructor": "Dr. Shahid Hussain",
+        "day": "Monday ",
+        "comments": "2 Combined Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98657",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98657",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Monday ",
+        "comments": "Lab Only Monday "
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": " MAC-3",
+        "id": "98655",
+        "instructor": "Ms. Parmal Ahmed",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98657",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Monday ",
+        "comments": "Lab Only Monday"
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98472",
+        "instructor": "Ms. Asma Tauqeer",
+        "day": "Monday ",
+        "comments": "Lab Only Monday"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98472",
+        "instructor": "Ms. Asma Tauqeer",
+        "day": "Monday ",
+        "comments": "Lab Only Monday"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-23",
+        "id": "98443",
+        "instructor": "Mr. M. Waseem Arian",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98442",
+        "instructor": "Dr. Imran Rauf",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "16:00-17:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98445",
+        "instructor": "Dr. Imran Rauf",
+        "day": "Monday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "16:00-17:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98443",
+        "instructor": "Mr. Waseem Arain ",
+        "day": "Monday ",
+        "comments": "Lab Only Monday"
+    },
+    {
+        "time": "17:30-18:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98443",
+        "instructor": "Mr. Waseem Arain ",
+        "day": "Monday ",
+        "comments": "Lab Only Monday"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAC-4",
+        "id": "98354",
+        "instructor": "Dr. Jaffar Ahmed",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98668",
+        "instructor": "Dr. Moiz Khan",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98355",
+        "instructor": "Dr. Syed Ali Raza",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-26",
+        "id": "98403",
+        "instructor": "Mr. M.Waseem Arain",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98393",
+        "instructor": "Dr. Shahid Hussain",
+        "day": "Wednesday",
+        "comments": "2 Combined Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98396",
+        "instructor": "Dr. Shahid Hussain",
+        "day": "Wednesday",
+        "comments": "2 Combined Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98657",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": " MAC-3",
+        "id": "98655",
+        "instructor": "Ms. Parmal Ahmed",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98403",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Wednesday",
+        "comments": "Lab Only Wednesday"
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98403",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Wednesday",
+        "comments": "Lab Only Wednesday"
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98504",
+        "instructor": "Ms. Mehwish Zafar",
+        "day": "Wednesday",
+        "comments": "Lab Only Wednesday"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98504",
+        "instructor": "Ms. Mehwish Zafar",
+        "day": "Wednesday",
+        "comments": "Lab Only Wednesday"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-23",
+        "id": "98443",
+        "instructor": "Mr. M. Waseem Arian",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98442",
+        "instructor": "Dr. Imran Rauf",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "16:00-17:15",
+        "name": "Theory of Automata",
+        "program": "BSCS-4",
+        "room": "MAS-2",
+        "id": "98445",
+        "instructor": "Dr. Imran Rauf",
+        "day": "Wednesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98503",
+        "instructor": "Ms. Asma Tauqeer",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98503",
+        "instructor": "Ms. Asma Tauqeer",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20A",
+        "id": "98464",
+        "instructor": "Ms. Sumaira Saeed",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-26",
+        "id": "98470",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-28",
+        "id": "98471",
+        "instructor": "Ms.Tasbiha Fatima",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98496",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Tuesday",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98472",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Tuesday",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98493",
+        "instructor": "Dr. Syed Ali Raza",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 7",
+        "id": "98503",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Tuesday",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 7",
+        "id": "98504",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Tuesday",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98470",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98471",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Communication and Networking ",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98470",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98471",
+        "instructor": "Ms. Tasbiha Fatima",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98496",
+        "instructor": "Ms. Mewish Zafar ",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98505",
+        "instructor": "Dr.Tahir Syed",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98512",
+        "instructor": "Dr.Tahir Syed",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98496",
+        "instructor": "Ms. Mewish Zafar ",
+        "day": "Tuesday",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98473",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Tuesday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20A",
+        "id": "98464",
+        "instructor": "Ms. Sumaira Saeed",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-26",
+        "id": "98470",
+        "instructor": "Mr. M. Waseem Arain",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Communication and Networking",
+        "program": "BSCS-4",
+        "room": "MTC-28",
+        "id": "98471",
+        "instructor": "Ms.Tasbiha Fatima",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98496",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Thursday ",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 6",
+        "id": "98472",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Thursday ",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98493",
+        "instructor": "Dr. Syed Ali Raza",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 7",
+        "id": "98503",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Thursday ",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "11:30-12:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTS 7",
+        "id": "98504",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Thursday ",
+        "comments": "2 Merge Sessions"
+    },
+    {
+        "time": "13:00-14:15",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98505",
+        "instructor": "Dr.Tahir Syed",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Introduction to Artificial Intelligence",
+        "program": "BSCS-4",
+        "room": "MTC-20",
+        "id": "98512",
+        "instructor": "Dr.Tahir Syed",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-3",
+        "id": "98496",
+        "instructor": "Ms. Mewish Zafar ",
+        "day": "Thursday ",
+        "comments": "Lab Only Tuesday "
+    },
+    {
+        "time": "14:30-15:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MTL-4",
+        "id": "98473",
+        "instructor": "Dr. Salman Zafar ",
+        "day": "Thursday ",
+        "comments": "Lecture"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98473",
+        "instructor": "Ms. Asma Tauqir ",
+        "day": "Friday",
+        "comments": "Lab Only Friday"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Computer Architecture and Assembly Language",
+        "program": "BSCS-4",
+        "room": "MCL-1",
+        "id": "98473",
+        "instructor": "Ms. Asma Tauqir ",
+        "day": "Friday",
+        "comments": "Lab Only Friday"
+    },
+    {
+        "time": "08:30-09:45",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAC-3",
+        "id": "98525",
+        "instructor": "Dr. Moiz Khan",
+        "day": "Saturday",
+        "comments": "Lecture"
+    },
+    {
+        "time": "10:00-11:15",
+        "name": "Pakistan History",
+        "program": "BSCS-4",
+        "room": "MAC-3",
+        "id": "98525",
+        "instructor": "Dr. Moiz Khan",
+        "day": "Saturday",
+        "comments": "Lecture"
+    }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC-3 Algorithm Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-2xl font-semibold mb-4">AC-3 Algorithm Results</h1>
+        
+        <h3 class="text-xl font-semibold">Algorithm Progress:</h3>
+        <ul class="list-disc pl-5 mb-6">
+            {% for solution in solutions %}
+                <li>{{ solution }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3 class="text-xl font-semibold">Generated Schedules:</h3>
+
+        <div id="schedule-container">
+            {% for schedule_table in schedule_tables %}
+                <div class="schedule-table" style="display:none;">
+                    {{ schedule_table|safe }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <div id="navigation-buttons" class="mt-4 flex justify-between">
+            <button id="prev-btn" onclick="changeSchedule(-1)" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                &#8592; Previous
+            </button>
+            <button id="next-btn" onclick="changeSchedule(1)" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                Next &#8594;
+            </button>
+        </div>
+
+        <div class="mt-4">
+            <a href="{{ url_for('index') }}" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                Back to Scheduling
+            </a>
+        </div>
+    </div>
+
+    <script>
+        let currentScheduleIndex = 0;
+        const scheduleTables = document.querySelectorAll('.schedule-table');
+
+        function changeSchedule(direction) {
+            // Hide current schedule
+            scheduleTables[currentScheduleIndex].style.display = 'none';
+
+            // Calculate the new index and wrap around
+            currentScheduleIndex = (currentScheduleIndex + direction + scheduleTables.length) % scheduleTables.length;
+
+            // Show the new schedule
+            scheduleTables[currentScheduleIndex].style.display = 'block';
+        }
+
+        // Initial display of the first schedule table
+        if (scheduleTables.length > 0) {
+            scheduleTables[0].style.display = 'block';
+        }
+    </script>
+</body>
+</html>

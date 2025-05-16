@@ -1,0 +1,68 @@
+time,name,program,room,id,instructor,day,comments
+08:30-09:45,Pakistan History,BSCS-4,MAC-4,98354,Dr. Jaffar Ahmed,Monday ,Lecture
+08:30-09:45,Pakistan History,BSCS-4,MAS-2,98668,Dr. Moiz Khan,Monday ,Lecture
+08:30-09:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98355,Dr. Syed Ali Raza,Monday ,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-26,98403,Mr. M.Waseem Arain,Monday ,Lecture
+10:00-11:15,Theory of Automata,BSCS-4,MTS 6,98393,Dr. Shahid Hussain,Monday ,2 Combined Sessions
+10:00-11:15,Theory of Automata,BSCS-4,MTS 6,98396,Dr. Shahid Hussain,Monday ,2 Combined Sessions
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTL-4,98657,Ms. Tasbiha Fatima,Monday ,Lecture
+11:30-12:45,Computer Communication and Networking,BSCS-4,MCL-3,98657,Ms. Tasbiha Fatima,Monday ,Lab Only Monday 
+11:30-12:45,Pakistan History,BSCS-4, MAC-3,98655,Ms. Parmal Ahmed,Monday ,Lecture
+13:00-14:15,Computer Communication and Networking,BSCS-4,MCL-3,98657,Ms. Tasbiha Fatima,Monday ,Lab Only Monday
+13:00-14:15,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98472,Ms. Asma Tauqeer,Monday ,Lab Only Monday
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98472,Ms. Asma Tauqeer,Monday ,Lab Only Monday
+14:30-15:45,Computer Communication and Networking,BSCS-4,MTC-23,98443,Mr. M. Waseem Arian,Monday ,Lecture
+14:30-15:45,Theory of Automata,BSCS-4,MAS-2,98442,Dr. Imran Rauf,Monday ,Lecture
+16:00-17:15,Theory of Automata,BSCS-4,MAS-2,98445,Dr. Imran Rauf,Monday ,Lecture
+16:00-17:15,Computer Communication and Networking,BSCS-4,MTL-4,98443,Mr. Waseem Arain ,Monday ,Lab Only Monday
+17:30-18:45,Computer Communication and Networking,BSCS-4,MTL-4,98443,Mr. Waseem Arain ,Monday ,Lab Only Monday
+08:30-09:45,Pakistan History,BSCS-4,MAC-4,98354,Dr. Jaffar Ahmed,Wednesday,Lecture
+08:30-09:45,Pakistan History,BSCS-4,MAS-2,98668,Dr. Moiz Khan,Wednesday,Lecture
+08:30-09:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98355,Dr. Syed Ali Raza,Wednesday,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-26,98403,Mr. M.Waseem Arain,Wednesday,Lecture
+10:00-11:15,Theory of Automata,BSCS-4,MTS 6,98393,Dr. Shahid Hussain,Wednesday,2 Combined Sessions
+10:00-11:15,Theory of Automata,BSCS-4,MTS 6,98396,Dr. Shahid Hussain,Wednesday,2 Combined Sessions
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTL-4,98657,Ms. Tasbiha Fatima,Wednesday,Lecture
+11:30-12:45,Pakistan History,BSCS-4, MAC-3,98655,Ms. Parmal Ahmed,Wednesday,Lecture
+11:30-12:45,Computer Communication and Networking,BSCS-4,MCL-3,98403,Mr. M. Waseem Arain,Wednesday,Lab Only Wednesday
+13:00-14:15,Computer Communication and Networking,BSCS-4,MCL-3,98403,Mr. M. Waseem Arain,Wednesday,Lab Only Wednesday
+13:00-14:15,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98504,Ms. Mehwish Zafar,Wednesday,Lab Only Wednesday
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98504,Ms. Mehwish Zafar,Wednesday,Lab Only Wednesday
+14:30-15:45,Computer Communication and Networking,BSCS-4,MTC-23,98443,Mr. M. Waseem Arian,Wednesday,Lecture
+14:30-15:45,Theory of Automata,BSCS-4,MAS-2,98442,Dr. Imran Rauf,Wednesday,Lecture
+16:00-17:15,Theory of Automata,BSCS-4,MAS-2,98445,Dr. Imran Rauf,Wednesday,Lecture
+08:30-09:45,Computer Architecture and Assembly Language,BSCS-4,MTL-4,98503,Ms. Asma Tauqeer,Tuesday,Lab Only Tuesday 
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MTL-4,98503,Ms. Asma Tauqeer,Tuesday,Lab Only Tuesday 
+10:00-11:15,Introduction to Artificial Intelligence,BSCS-4,MTC-20A,98464,Ms. Sumaira Saeed,Tuesday,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-26,98470,Mr. M. Waseem Arain,Tuesday,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-28,98471,Ms.Tasbiha Fatima,Tuesday,Lecture
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MTS 6,98496,Dr. Salman Zafar ,Tuesday,2 Merge Sessions
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MTS 6,98472,Dr. Salman Zafar ,Tuesday,2 Merge Sessions
+11:30-12:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98493,Dr. Syed Ali Raza,Tuesday,Lecture
+11:30-12:45,Computer Architecture and Assembly Language,BSCS-4,MTS 7,98503,Dr. Salman Zafar ,Tuesday,2 Merge Sessions
+11:30-12:45,Computer Architecture and Assembly Language,BSCS-4,MTS 7,98504,Dr. Salman Zafar ,Tuesday,2 Merge Sessions
+11:30-12:45,Computer Communication and Networking,BSCS-4,MTL-4,98470,Mr. M. Waseem Arain,Tuesday,Lab Only Tuesday 
+11:30-12:45,Computer Communication and Networking,BSCS-4,MCL-1,98471,Ms. Tasbiha Fatima,Tuesday,Lab Only Tuesday 
+13:00-14:15,Computer Communication and Networking ,BSCS-4,MTL-4,98470,Mr. M. Waseem Arain,Tuesday,Lab Only Tuesday 
+13:00-14:15,Computer Communication and Networking,BSCS-4,MTL-4,98471,Ms. Tasbiha Fatima,Tuesday,Lab Only Tuesday 
+13:00-14:15,Computer Architecture and Assembly Language,BSCS-4,MCL-3,98496,Ms. Mewish Zafar ,Tuesday,Lab Only Tuesday 
+13:00-14:15,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98505,Dr.Tahir Syed,Tuesday,Lecture
+14:30-15:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98512,Dr.Tahir Syed,Tuesday,Lecture
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MCL-3,98496,Ms. Mewish Zafar ,Tuesday,Lab Only Tuesday 
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MTL-4,98473,Dr. Salman Zafar ,Tuesday,Lecture
+10:00-11:15,Introduction to Artificial Intelligence,BSCS-4,MTC-20A,98464,Ms. Sumaira Saeed,Thursday ,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-26,98470,Mr. M. Waseem Arain,Thursday ,Lecture
+10:00-11:15,Computer Communication and Networking,BSCS-4,MTC-28,98471,Ms.Tasbiha Fatima,Thursday ,Lecture
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MTS 6,98496,Dr. Salman Zafar ,Thursday ,2 Merge Sessions
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MTS 6,98472,Dr. Salman Zafar ,Thursday ,2 Merge Sessions
+11:30-12:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98493,Dr. Syed Ali Raza,Thursday ,Lecture
+11:30-12:45,Computer Architecture and Assembly Language,BSCS-4,MTS 7,98503,Dr. Salman Zafar ,Thursday ,2 Merge Sessions
+11:30-12:45,Computer Architecture and Assembly Language,BSCS-4,MTS 7,98504,Dr. Salman Zafar ,Thursday ,2 Merge Sessions
+13:00-14:15,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98505,Dr.Tahir Syed,Thursday ,Lecture
+14:30-15:45,Introduction to Artificial Intelligence,BSCS-4,MTC-20,98512,Dr.Tahir Syed,Thursday ,Lecture
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MCL-3,98496,Ms. Mewish Zafar ,Thursday ,Lab Only Tuesday 
+14:30-15:45,Computer Architecture and Assembly Language,BSCS-4,MTL-4,98473,Dr. Salman Zafar ,Thursday ,Lecture
+08:30-09:45,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98473,Ms. Asma Tauqir ,Friday,Lab Only Friday
+10:00-11:15,Computer Architecture and Assembly Language,BSCS-4,MCL-1,98473,Ms. Asma Tauqir ,Friday,Lab Only Friday
+08:30-09:45,Pakistan History,BSCS-4,MAC-3,98525,Dr. Moiz Khan,Saturday,Lecture
+10:00-11:15,Pakistan History,BSCS-4,MAC-3,98525,Dr. Moiz Khan,Saturday,Lecture

@@ -1,0 +1,49 @@
+Solution,id,name,constraints
+Solution #1,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #1,98396,Theory of Automata,"['Monday 10:00-11:15', 'Wednesday 10:00-11:15']"
+Solution #1,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #1,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #1,98655,Pakistan History,"['Monday 11:30-12:45', 'Wednesday 11:30-12:45']"
+,,,
+Solution #2,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #2,98442,Theory of Automata,"['Monday 14:30-15:45', 'Wednesday 14:30-15:45']"
+Solution #2,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #2,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #2,98655,Pakistan History,"['Monday 11:30-12:45', 'Wednesday 11:30-12:45']"
+,,,
+Solution #3,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #3,98445,Theory of Automata,"['Monday 16:00-17:15', 'Wednesday 16:00-17:15']"
+Solution #3,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #3,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #3,98655,Pakistan History,"['Monday 11:30-12:45', 'Wednesday 11:30-12:45']"
+,,,
+Solution #4,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #4,98445,Theory of Automata,"['Monday 16:00-17:15', 'Wednesday 16:00-17:15']"
+Solution #4,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #4,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #4,98525,Pakistan History,"['Saturday 08:30-09:45', 'Saturday 10:00-11:15']"
+,,,
+Solution #5,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #5,98396,Theory of Automata,"['Monday 10:00-11:15', 'Wednesday 10:00-11:15']"
+Solution #5,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #5,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #5,98525,Pakistan History,"['Saturday 08:30-09:45', 'Saturday 10:00-11:15']"
+,,,
+Solution #6,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #6,98442,Theory of Automata,"['Monday 14:30-15:45', 'Wednesday 14:30-15:45']"
+Solution #6,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #6,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #6,98525,Pakistan History,"['Saturday 08:30-09:45', 'Saturday 10:00-11:15']"
+,,,
+Solution #7,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #7,98393,Theory of Automata,"['Monday 10:00-11:15', 'Wednesday 10:00-11:15']"
+Solution #7,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #7,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #7,98525,Pakistan History,"['Saturday 08:30-09:45', 'Saturday 10:00-11:15']"
+,,,
+Solution #8,98355,Introduction to Artificial Intelligence,"['Monday 08:30-09:45', 'Wednesday 08:30-09:45']"
+Solution #8,98393,Theory of Automata,"['Monday 10:00-11:15', 'Wednesday 10:00-11:15']"
+Solution #8,98470,Computer Communication and Networking,"['Tuesday 10:00-11:15', 'Tuesday 11:30-12:45', 'Tuesday 13:00-14:15', 'Thursday 10:00-11:15']"
+Solution #8,98473,Computer Architecture and Assembly Language,"['Tuesday 14:30-15:45', 'Thursday 14:30-15:45', 'Friday 08:30-09:45', 'Friday 10:00-11:15']"
+Solution #8,98655,Pakistan History,"['Monday 11:30-12:45', 'Wednesday 11:30-12:45']"
+,,,

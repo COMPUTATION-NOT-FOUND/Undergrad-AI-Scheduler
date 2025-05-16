@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Schedule</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .selected-course {
+      background-color: #a7f3d0;
+      color: #115e59;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-semibold mb-4">Course Schedule for {{ program_name }}</h1>
+
+    <!-- Constraints Panel -->
+    <div class="mb-4 p-4 bg-white rounded-md shadow-md">
+      <h2 class="text-lg font-semibold mb-2">Constraints:</h2>
+
+      {% if constraints %}
+        <ul class="list-disc list-inside">
+          {% for course in constraints %}
+            <li class="flex items-center justify-between py-1">
+              {{ course.name }} - {{ course.instructor }} &ndash; ({{ course.id }}) &ndash; {{ course.time }} {{ course.day }}
+              <form method="post" action="{{ url_for('schedule') }}" class="ml-4">
+                <input type="hidden" name="remove_course_id" value="{{ course.id }}">
+                <button
+                  type="submit"
+                  class="text-red-500 hover:text-red-700 font-bold py-1 px-2 rounded focus:outline-none focus:shadow-outline"
+                >Remove</button>
+              </form>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <form method="post" action="{{ url_for('clear_constraints') }}" class="mt-2">
+          <button
+            type="submit"
+            class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          >Clear All Constraints</button>
+        </form>
+      {% else %}
+        <p class="text-gray-500">No constraints selected.</p>
+      {% endif %}
+
+      {% if no_class_constraints %}
+        <h3 class="text-lg font-semibold mt-4">No-Class Constraints:</h3>
+        <ul class="list-disc list-inside">
+          {% for day, time in no_class_constraints %}
+            <li class="flex items-center justify-between py-1">
+              No-Class &ndash; {{ time }} {{ day }}
+              <form method="post" action="{{ url_for('schedule') }}" class="ml-4">
+                <input type="hidden" name="no_class_day_remove" value="{{ day }}">
+                <input type="hidden" name="no_class_time_remove" value="{{ time }}">
+                <button
+                  type="submit"
+                  class="text-red-500 hover:text-red-700 font-bold py-1 px-2 rounded focus:outline-none focus:shadow-outline"
+                >Remove</button>
+              </form>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <form method="post" action="{{ url_for('clear_no_class_constraints') }}" class="mt-2">
+          <button
+            type="submit"
+            class="bg-red-400 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          >Clear All No-Class Constraints</button>
+        </form>
+      {% endif %}
+    </div>
+
+    <!-- Make Schedule Button -->
+    <div class="mb-4 p-4 bg-white rounded-md shadow-md">
+      <a href="{{ url_for('make_schedule') }}">
+        <button
+          type="button"
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >Make Schedule</button>
+      </a>
+    </div>
+
+    <!-- Schedule Table -->
+    <table class="table-auto border-collapse border w-full bg-white shadow-md rounded">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="px-4 py-2 border text-left">Day</th>
+          {% for slot in ['08:30-09:45','10:00-11:15','11:30-12:45','13:00-14:15','14:30-15:45','16:00-17:15','17:30-18:45'] %}
+            <th class="px-4 py-2 border text-left">{{ slot }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for day in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'] %}
+          <tr>
+            <td class="px-4 py-2 border font-semibold">{{ day }}</td>
+
+            {% for time in ['08:30-09:45','10:00-11:15','11:30-12:45','13:00-14:15','14:30-15:45','16:00-17:15','17:30-18:45'] %}
+              {% set row = schedule.get(time, {}) %}
+              <td class="px-4 py-2 border align-top">
+
+                {% if row.get(day) %}
+                  {% for course in row[day] %}
+                    <form method="post" action="{{ url_for('schedule') }}" class="mb-1">
+                      <input type="hidden" name="course_id" value="{{ course.id }}">
+                      <button
+                        type="submit"
+                        class="w-full text-left p-2 rounded-md hover:bg-gray-300 cursor-pointer"
+                        {% if highlighted_course_ids[course.id] %}
+                          style="background-color: {{ highlighted_course_ids[course.id] }};"
+                        {% endif %}
+                        title="{{ course }}"
+                      >{{ course.name }} – {{ course.instructor }} ({{ course.id }})</button>
+                    </form>
+                  {% endfor %}
+                {% endif %}
+
+                <form method="post" action="{{ url_for('schedule') }}" class="w-full mt-2">
+                  <input type="hidden" name="no_class_day" value="{{ day }}">
+                  <input type="hidden" name="no_class_time" value="{{ time }}">
+                  <button
+                    type="submit"
+                    class="w-full text-center py-2 rounded-md bg-gray-300 text-gray-700 hover:bg-gray-400 focus:outline-none"
+                  >No Class</button>
+                </form>
+
+              </td>
+            {% endfor %}
+
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+  </div>
+</body>
+</html>

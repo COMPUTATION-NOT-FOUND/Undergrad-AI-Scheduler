@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Binary PSO Results</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+  <div class="max-w-7xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+    <h1 class="text-3xl font-bold text-center mb-4">Binary PSO Solution</h1>
+
+    <p class="text-center text-lg mb-6">
+      <strong>Best Fitness</strong>
+      (Preference: {{ preference_weight }}, Capacity: {{ capacity_weight }},
+       Time: {{ time_weight }}, Label: {{ label_weight }},
+       Course Load: {{ course_load_weight }}):
+      <span class="text-blue-600 font-semibold">{{ best_fitness }}</span>
+    </p>
+
+    <h2 class="text-2xl font-semibold mb-2 text-center">Course Enrollments</h2>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border border-gray-300 text-center">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="p-2 border">Student / Preferences</th>
+            {% for course in course_names %}
+              <th class="p-2 border">
+                {{ course }}<br>
+                <span class="text-xs text-gray-500">({{ course_labels[loop.index0] }})</span><br>
+                <span class="text-xs text-gray-500">Cap: {{ course_caps[loop.index0] }}</span><br>
+                <span class="text-xs text-gray-500">
+                  Times:
+                  {% for slot in course_times[loop.index0] %}
+                    {{ slot[0] }} {{ slot[1] }}–{{ slot[2] }}{% if not loop.last %}, {% endif %}
+                  {% endfor %}
+                </span>
+              </th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for i in range(student_names|length) %}
+            <tr>
+              <td class="p-2 border text-left align-top">
+                <div class="font-medium">{{ student_names[i] }}</div>
+                <div class="text-xs text-gray-600 mt-1">
+                  Prefs: {{ student_preferences[i] | join(', ') }}
+                </div>
+              </td>
+              {% for j in range(course_names|length) %}
+                {% set cls = violation_matrix[i][j] %}
+                <td class="p-2 border font-semibold {{ cls }}">
+                  {{ 'Yes' if enrollment_matrix[i][j] == 1 else 'No' }}
+                </td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Legend & Priority -->
+    <div class="max-w-md mx-auto bg-gray-50 p-4 rounded-lg border border-gray-200">
+      <h3 class="text-xl font-semibold mb-2">Legend & Priority</h3>
+      <ul class="space-y-1 text-sm">
+        <li><span class="inline-block w-4 h-4 bg-green-100 mr-2 align-middle border"></span>No Violation</li>
+        <li><span class="inline-block w-4 h-4 bg-blue-100 mr-2 align-middle border"></span>Preference Violation</li>
+        <li><span class="inline-block w-4 h-4 bg-yellow-100 mr-2 align-middle border"></span>Capacity Violation</li>
+        <li><span class="inline-block w-4 h-4 bg-orange-100 mr-2 align-middle border"></span>Time Conflict</li>
+        <li><span class="inline-block w-4 h-4 bg-red-100 mr-2 align-middle border"></span>Label Conflict</li>
+      </ul>
+      <p class="mt-3 text-sm">
+        <strong>Priority:</strong> Preference &lt; Capacity &lt; Time Conflict &lt; Label Conflict
+      </p>
+      <p class="mt-2 text-sm text-gray-600">
+        <strong>Time Constraints:</strong>
+        Two courses conflict if they occur on the same day and their time intervals overlap.
+      </p>
+    </div>
+
+    <div class="text-center mt-6">
+      <a href="/" class="text-blue-500 hover:underline">Go Back to Input</a>
+    </div>
+  </div>
+</body>
+</html>
